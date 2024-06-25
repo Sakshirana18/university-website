@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./eduford_img/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 20px;
+    margin-top: 0.6rem;
+
+}
+
+.logo img {
+    width: 150px;
+}
+
+.links {
+    margin-top: 0.5rem;
+    padding-right: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+.links a:hover {
+    background-color: #f44336;
+    border: 1.5px solid black;
+    border-radius: 50%;
+}
+
+.body {
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.body h1 {
+    font-size: 4rem;
+    padding: 0.5rem;
+}
+
+#bodyp {
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    color: whitesmoke;
+}
+
+#bodya {
+    margin: 1rem;
+}
+
+.btn {
+    font-size: 0.9rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    background-color: #f44336;
+    border: 1.5px solid black;
+}
+
+.courses {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.campus,
+.facilities,
+.reviews {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.courses h1,
+.campus h1,
+.facilities h1,
+.reviews h1 {
+    font-size: 2rem;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.courses p,
+.campus p,
+.facilities p,
+.reviews p,
+.footer p {
+    color: grey;
+    padding: 10px;
+}
+
+.divs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div {
+    padding: 15px 10px;
+    margin: 20px;
+    background-color: #fcdede;
+    border-radius: 5px;
+
+
+}
+
+.div:hover {
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.divs2,
+.divs3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.img,
+.img2 {
+    padding: 1.5rem 0rem;
+    margin: 1rem 0rem;
+
+}
+
+.img img {
+    /* height: 400px ; */
+    border-radius: 5px;
+    width: 70%;
+}
+
+.img img:hover {
+    box-shadow: 0 0 18px 0px rgba(0, 0, 0, 0.5);
+}
+
+.img2 img:hover {
+    box-shadow: 0 0 18px 0px rgba(0, 0, 0, 0.5);
+}
+
+.img2 img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+.reviewbox {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.r {
+    display: flex;
+    width: 44%;
+    background-color: #fcdede;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+.r img {
+    margin-top: 8px;
+    margin-right: 8px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.r h3 {
+    text-align: left;
+    margin: 0.5rem;
+}
+
+.r i {
+    margin-left: 0.4rem;
+    color: #f44336
+}
+
+.enroll .img {
+    background-image: linear-gradient();
+}
+
+.enroll {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.enroll h1 {
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 2rem;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600px;
+}
+
+.icons .fa-brands {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart {
+    color: #f44336;
+}
+
+.navbar .fa-solid {
+    display: none;
+}
+
+@media(max-width: 700px) {
+    
+    .body h1 {
+        font-size: 2rem;
+    }
+
+    #bodyp {
+        font-size: 0.8rem;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        font-size: small;
+        padding: 5px;
+    }
+
+
+    .courses {
+        margin-top: 8rem;
+    }
+
+    .courses .divs,
+    .campus .divs2,
+    .facilities .divs3,
+    .reviews .reviewbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviewbox {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviewbox .r {
+
+        height: 300px;
+        width: 80vw;
+        overflow: scroll;
+    }
+
+    .enroll h1 {
+        font-size: 1rem;
+    }
+    
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
